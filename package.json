@@ -15,7 +15,7 @@
     "multicolor",
     "series"
   ],
-  "author": "Black Label",
+  "authors": ["Black Label", "Tom Neyland"],
   "license": "CC",
   "bugs": {
     "url": "https://github.com/TomNeyland/multicolor_series/issues"

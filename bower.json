@@ -3,7 +3,8 @@
   "version": "1.2.0",
   "homepage": "http://blacklabel.github.io/multicolor_series/",
   "authors": [
-    "Black Label"
+    "Black Label",
+    "Tom Neyland"
   ],
   "description": "Plugin that allows define different color for each part of path between points.",
   "main": "js/multicolor_series.js",
