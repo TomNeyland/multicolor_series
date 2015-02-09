@@ -1,0 +1,27 @@
+{
+  "name": "highcharts-multicolor-series",
+  "version": "1.2.0",
+  "description": "Plugin that allows define different color for each part of path between points.",
+  "main": "js/multicolor_series.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TomNeyland/multicolor_series.git"
+  },
+  "keywords": [
+    "highcharts",
+    "multicolor",
+    "series"
+  ],
+  "author": "Black Label",
+  "license": "CC",
+  "bugs": {
+    "url": "https://github.com/TomNeyland/multicolor_series/issues"
+  },
+  "homepage": "https://github.com/TomNeyland/multicolor_series",
+  "devDependencies": {
+    "gulp-wrap-umd": "~0.2.1"
+  }
+}
