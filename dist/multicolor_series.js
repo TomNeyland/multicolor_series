@@ -1,4 +1,15 @@
-var each = Highcharts.each,
+
+(function(root, factory) {
+  if (typeof define === 'function' && define.amd) {
+    define(["highcharts"], factory);
+  } else if (typeof exports === 'object') {
+    module.exports = factory(require('highcharts'));
+  } else {
+    root.gulpWrapUmd = factory(root.Highcharts);
+  }
+}(this, function(Highcharts) {
+
+return var each = Highcharts.each,
     seriesTypes = Highcharts.seriesTypes,
     mathFloor = Math.floor,
     mathMax = Math.max,
@@ -579,3 +590,6 @@ Highcharts.seriesTypes.coloredarea.prototype.getGraphPath = function() {
 Highcharts.seriesTypes.coloredarea.prototype.drawLegendSymbol = Highcharts.LegendSymbolMixin.drawRectangle;
 
 })(Highcharts);
+;
+
+}));
