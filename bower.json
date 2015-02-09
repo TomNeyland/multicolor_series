@@ -1,0 +1,23 @@
+{
+  "name": "highcharts-multicolor-series",
+  "version": "1.2.0",
+  "homepage": "http://blacklabel.github.io/multicolor_series/",
+  "authors": [
+    "Black Label"
+  ],
+  "description": "Plugin that allows define different color for each part of path between points.",
+  "main": "js/multicolor_series.js",
+  "keywords": [
+    "highcharts",
+    "multicolor",
+    "series"
+  ],
+  "license": "CC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
