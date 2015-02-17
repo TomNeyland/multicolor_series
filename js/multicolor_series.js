@@ -1,3 +1,4 @@
+(function(Highcharts){
 var each = Highcharts.each,
     seriesTypes = Highcharts.seriesTypes,
     mathFloor = Math.floor,
