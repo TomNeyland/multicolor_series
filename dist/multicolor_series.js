@@ -9,7 +9,8 @@
   }
 }(this, function(Highcharts) {
 
-return var each = Highcharts.each,
+return (function(Highcharts){
+var each = Highcharts.each,
     seriesTypes = Highcharts.seriesTypes,
     mathFloor = Math.floor,
     mathMax = Math.max,
