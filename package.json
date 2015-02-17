@@ -2,7 +2,7 @@
   "name": "highcharts-multicolor-series",
   "version": "1.2.0",
   "description": "Plugin that allows define different color for each part of path between points.",
-  "main": "js/multicolor_series.js",
+  "main": "dist/multicolor_series.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
